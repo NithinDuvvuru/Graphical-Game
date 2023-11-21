@@ -232,6 +232,17 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Backgrounds/82e24c48618660952ceb6cede5c9917ceeb4371c9e971f4a49fb43689d045d89_tiled_black space.png",
           "name": "tiled_black space.png"
         }
+      },
+      {
+        "file": "assets/Cannon Ball.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Cannon Ball.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Pirate Pack/Ball/98d6c6fd7072e9a7e7ace0b1a753aacc6f15d7c54d294ede2e2a646a23b69ba2_Cannon Ball.glb",
+          "name": "Cannon Ball.glb"
+        }
       }
     ],
     "resourceFolders": []
@@ -797,6 +808,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "CannonBall",
+          "persistentUuid": "d4cc8477-061c-4027-9858-6b02b9c11b6e",
+          "width": 0,
+          "x": 976,
+          "y": 687,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -821,6 +847,28 @@
           "effects": [],
           "behaviors": [],
           "animations": []
+        },
+        {
+          "assetStoreId": "043f36e2798ee962891b08a76402749a208fab17d54f4a1d460a4e9e560eb0be",
+          "name": "CannonBall",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "depth": 100,
+            "height": 100,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Cannon Ball.glb",
+            "originLocation": "BottomCenterZ",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": -90,
+            "width": 100,
+            "animations": []
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -831,6 +879,9 @@
           },
           {
             "objectName": "NewSprite"
+          },
+          {
+            "objectName": "CannonBall"
           }
         ]
       },
@@ -911,6 +962,10 @@
         {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Object3D",
+          "type": "Scene3D::Base3DBehavior"
         },
         {
           "name": "Opacity",
