@@ -308,7 +308,7 @@
         "alwaysLoaded": false,
         "file": "assets/Grass1.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Grass1.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Grass1.png",
         "smoothed": false,
         "userAdded": true
@@ -1871,22 +1871,6 @@
           "x": 506,
           "y": 20,
           "zOrder": 2005,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 35,
-          "layer": "Collision",
-          "name": "Water1",
-          "persistentUuid": "acad3308-fc2f-46d0-8574-6c19becb2abc",
-          "width": 52,
-          "x": 606,
-          "y": 247,
-          "zOrder": 2006,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4296,6 +4280,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
           "name": "BitmapText_AutoTyping",
           "type": "AutoTyping::BitmapText_AutoTyping"
         },
@@ -4330,6 +4318,10 @@
         {
           "name": "ShakeObject_PositionAngle",
           "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "TopDownMovement",
