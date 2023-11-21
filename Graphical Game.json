@@ -621,7 +621,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 3.192324386279836,
+        "zoomFactor": 0.766964988847374,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1871,6 +1871,22 @@
           "x": 506,
           "y": 20,
           "zOrder": 2005,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 35,
+          "layer": "Collision",
+          "name": "Water1",
+          "persistentUuid": "acad3308-fc2f-46d0-8574-6c19becb2abc",
+          "width": 52,
+          "x": 606,
+          "y": 247,
+          "zOrder": 2006,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
