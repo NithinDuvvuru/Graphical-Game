@@ -621,7 +621,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 1.2613087341905393,
+        "zoomFactor": 1.7573245611364094,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1690,6 +1690,21 @@
           "x": 528,
           "y": -15,
           "zOrder": 2000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Lighting",
+          "name": "Glow",
+          "persistentUuid": "665f98d7-91d8-47e8-9aa6-de5264ffe375",
+          "width": 0,
+          "x": 538,
+          "y": 270,
+          "zOrder": 2003,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3211,6 +3226,20 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Glow",
+          "type": "Lighting::LightObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "radius": 50,
+            "color": "255;255;255",
+            "debugMode": false,
+            "texture": ""
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -3287,6 +3316,9 @@
           },
           {
             "objectName": "TargetRoundButton"
+          },
+          {
+            "objectName": "Glow"
           }
         ]
       },
@@ -4095,9 +4127,29 @@
           "visibility": true,
           "cameras": [],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 128,
+          "ambientLightColorG": 128,
+          "ambientLightColorR": 128,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": true,
+          "isLightingLayer": true,
+          "isLocked": false,
+          "name": "Lighting",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
         {
           "name": "BitmapText_AutoTyping",
           "type": "AutoTyping::BitmapText_AutoTyping"
@@ -4133,6 +4185,10 @@
         {
           "name": "ShakeObject_PositionAngle",
           "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "TopDownMovement",
