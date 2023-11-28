@@ -621,32 +621,13 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 1.0685777208212022,
+        "zoomFactor": 0.8471975907682752,
         "windowMask": false
       },
       "objectsGroups": [
         {
           "name": "PhysicalObject",
-          "objects": [
-            {
-              "name": "Tree1"
-            },
-            {
-              "name": "Bush1"
-            },
-            {
-              "name": "Tree2"
-            },
-            {
-              "name": "House1"
-            },
-            {
-              "name": "House2"
-            },
-            {
-              "name": "NPC"
-            }
-          ]
+          "objects": []
         },
         {
           "name": "TouchControls",
@@ -748,9 +729,9 @@
           "layer": "",
           "name": "RoadEdge1",
           "persistentUuid": "eec3ba6d-5a91-4a21-b913-71d066e57200",
-          "width": 321,
-          "x": 393,
-          "y": 195,
+          "width": 290,
+          "x": 410,
+          "y": 214,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -781,444 +762,9 @@
           "name": "CollisionDetect",
           "persistentUuid": "0166d221-c908-425d-8c2d-85f710145da4",
           "width": 383,
-          "x": 177,
-          "y": 355,
+          "x": 180,
+          "y": 358,
           "zOrder": 2000,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree2",
-          "persistentUuid": "b0b0e407-1b28-4598-a1a3-b7458b78470c",
-          "width": 0,
-          "x": 259,
-          "y": 378,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree2",
-          "persistentUuid": "8bcb22b5-1be4-45c9-9474-329399ea1572",
-          "width": 0,
-          "x": 291,
-          "y": 378,
-          "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree2",
-          "persistentUuid": "fc36ad56-0594-41f2-ab03-f3636f37de58",
-          "width": 0,
-          "x": 323,
-          "y": 378,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree2",
-          "persistentUuid": "e8b62d84-9066-4c1f-9cac-bb2ed23fcdc3",
-          "width": 0,
-          "x": 355,
-          "y": 378,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree2",
-          "persistentUuid": "d0c7cbf9-cb86-47b6-8028-358a382a6d5a",
-          "width": 0,
-          "x": 387,
-          "y": 378,
-          "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree2",
-          "persistentUuid": "0e8dcf9b-f190-43a7-b7bc-9f55299de48d",
-          "width": 0,
-          "x": 419,
-          "y": 378,
-          "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree2",
-          "persistentUuid": "02a38c85-e098-42db-a61d-e500721d813f",
-          "width": 0,
-          "x": 451,
-          "y": 378,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree2",
-          "persistentUuid": "97d673e0-9de6-4e77-920c-0f5eeea955c8",
-          "width": 0,
-          "x": 483,
-          "y": 378,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree2",
-          "persistentUuid": "a59168c4-6668-42ad-addb-9597be75e3ed",
-          "width": 0,
-          "x": 515,
-          "y": 378,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree2",
-          "persistentUuid": "f136c286-969a-41e3-ac47-14e650ec4a14",
-          "width": 0,
-          "x": 547,
-          "y": 378,
-          "zOrder": 32,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree2",
-          "persistentUuid": "dfc9c297-d934-47bc-bf78-13cf5a0cae91",
-          "width": 0,
-          "x": 227,
-          "y": 378,
-          "zOrder": 33,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Bush1",
-          "persistentUuid": "13224ec5-4c04-4ac0-82b6-3bbd1662b56d",
-          "width": 0,
-          "x": 442,
-          "y": 319,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Bush1",
-          "persistentUuid": "f7b90ea5-457c-4587-b5ae-35f7525277bd",
-          "width": 0,
-          "x": 514,
-          "y": 240,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Bush1",
-          "persistentUuid": "ce36e224-ec14-4612-ba11-42d08115b6ba",
-          "width": 0,
-          "x": 458,
-          "y": 319,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Bush1",
-          "persistentUuid": "f26ea0bd-2b9b-4ed4-9841-f24f79223808",
-          "width": 0,
-          "x": 499,
-          "y": 320,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Bush1",
-          "persistentUuid": "ac22b506-432b-439f-87f7-c09fe2728baf",
-          "width": 0,
-          "x": 514,
-          "y": 224,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Bush1",
-          "persistentUuid": "cf8c62f1-95e8-4a2b-b30f-e6efe6da1f27",
-          "width": 0,
-          "x": 514,
-          "y": 256,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Bush1",
-          "persistentUuid": "d9e26baa-9441-49d3-a4d9-4751a12e41f7",
-          "width": 0,
-          "x": 514,
-          "y": 240,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 10,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "9f305444-9017-4b48-af59-9cb928f521d8",
-          "width": 16,
-          "x": 219,
-          "y": 370,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 10,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "3eb63f6f-44ba-497f-8011-fbcf112f7fb2",
-          "width": 16,
-          "x": 539,
-          "y": 370,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 10,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "3ee1a74f-1112-4a54-93a7-2a0ea71c6f5d",
-          "width": 16,
-          "x": 507,
-          "y": 370,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 10,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "acf9a04b-9ff9-4881-8a10-1883d7e0ca0e",
-          "width": 16,
-          "x": 475,
-          "y": 370,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 10,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "b8e70c7e-6547-44f3-b67e-96440b6fa347",
-          "width": 16,
-          "x": 443,
-          "y": 370,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 10,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "dd91a27e-5ad7-4052-87aa-c36b2c4efb82",
-          "width": 16,
-          "x": 411,
-          "y": 370,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 10,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "7b6e8dcb-846e-43d5-9765-a1bb3cec5f90",
-          "width": 16,
-          "x": 379,
-          "y": 370,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 10,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "d7e15cb8-a299-43ca-9a78-f6492dc5d17b",
-          "width": 16,
-          "x": 347,
-          "y": 370,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 10,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "15b5ed89-fa9a-463d-86bf-19e9904cd5bc",
-          "width": 16,
-          "x": 315,
-          "y": 370,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 10,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "4c16228c-d6f4-4d79-a2bc-a9d26c3119e1",
-          "width": 16,
-          "x": 283,
-          "y": 370,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 10,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "579eedd4-39ef-4e52-b76b-eb38318a82d5",
-          "width": 16,
-          "x": 251,
-          "y": 370,
-          "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1341,21 +887,6 @@
           "x": 1004,
           "y": 497,
           "zOrder": 2001,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree2",
-          "persistentUuid": "2c4a89b4-1442-42bc-ae86-845a960852f2",
-          "width": 0,
-          "x": 194,
-          "y": 378,
-          "zOrder": 2002,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1544,9 +1075,9 @@
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "2bdb8afd-a4b0-4af8-8789-4427b8cebad2",
-          "width": 88,
+          "width": 89,
           "x": 434,
-          "y": 202,
+          "y": 204,
           "zOrder": 2000,
           "numberProperties": [],
           "stringProperties": [],
@@ -1576,9 +1107,9 @@
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "9b0d3f30-4426-44dc-a499-6e52e2564771",
-          "width": 321,
-          "x": 402,
-          "y": 185,
+          "width": 288,
+          "x": 420,
+          "y": 203,
           "zOrder": 2000,
           "numberProperties": [],
           "stringProperties": [],
@@ -1593,7 +1124,7 @@
           "name": "CollisionDetect",
           "persistentUuid": "5475b95f-3c2c-4fca-8280-4a81385bb14f",
           "width": 135,
-          "x": 444,
+          "x": 445,
           "y": 93,
           "zOrder": 2000,
           "numberProperties": [],
@@ -1609,40 +1140,8 @@
           "name": "CollisionDetect",
           "persistentUuid": "89ab2def-71f6-43cf-81b8-3c1b63f820a3",
           "width": 238,
-          "x": 262,
+          "x": 264,
           "y": 149,
-          "zOrder": 2000,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 80,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "f5424940-2541-4094-9623-f4c164bdffac",
-          "width": 21,
-          "x": 243,
-          "y": 145,
-          "zOrder": 2000,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 80,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "b08fb073-d542-4cb3-9614-525341a726db",
-          "width": 21,
-          "x": 158,
-          "y": 306,
           "zOrder": 2000,
           "numberProperties": [],
           "stringProperties": [],
@@ -1652,13 +1151,13 @@
           "angle": 90,
           "customSize": true,
           "depth": 1,
-          "height": 80,
+          "height": 432,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "71358e39-7c2f-449d-b367-a64184051e66",
           "width": 21,
-          "x": 528,
-          "y": -15,
+          "x": 709,
+          "y": -189,
           "zOrder": 2000,
           "numberProperties": [],
           "stringProperties": [],
@@ -1675,6 +1174,598 @@
           "x": 538,
           "y": 270,
           "zOrder": 2003,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 380,
+          "layer": "",
+          "name": "Road1",
+          "persistentUuid": "89010ac7-b0c8-4f3d-b751-e58fb0b52848",
+          "width": 32,
+          "x": 728,
+          "y": -137,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "debc99de-2838-4687-b25c-4d52d018c919",
+          "width": 200,
+          "x": 552,
+          "y": 68,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "86af14f5-4b82-4318-97cf-279103077dad",
+          "width": 413,
+          "x": 521,
+          "y": 33,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "ea5b2daf-95c1-4ff4-b26b-7a93ef48dde4",
+          "width": 467,
+          "x": 702,
+          "y": 266,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 433,
+          "layer": "",
+          "name": "Road1",
+          "persistentUuid": "060e9baa-1137-43d4-8012-0bce3960e44e",
+          "width": 32,
+          "x": 903,
+          "y": 69,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 265,
+          "layer": "",
+          "name": "Road1",
+          "persistentUuid": "9d6cc17e-aca4-4ee8-879a-db91d5372fd8",
+          "width": 32,
+          "x": 755,
+          "y": 77,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 194,
+          "layer": "",
+          "name": "Road1",
+          "persistentUuid": "985ef80b-b862-49b8-90dc-36c941f03486",
+          "width": 32,
+          "x": 790,
+          "y": 285,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 248,
+          "layer": "",
+          "name": "Road1",
+          "persistentUuid": "9975df77-e561-4413-8820-57475741686f",
+          "width": 32,
+          "x": 639,
+          "y": 225,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 194,
+          "layer": "",
+          "name": "Road1",
+          "persistentUuid": "e74c4db9-b7f5-4747-9403-8cd5cdb12046",
+          "width": 32,
+          "x": 527,
+          "y": 360,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 125,
+          "layer": "",
+          "name": "Road1",
+          "persistentUuid": "86df67c9-ccd1-4fdc-8ca4-bc3cdd4ff373",
+          "width": 32,
+          "x": 752,
+          "y": 69,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "e6aa7c6b-54e5-4ee6-9412-f1545cbf097d",
+          "width": 120,
+          "x": 783,
+          "y": 69,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "e7b52ff2-0bd7-44bd-b3d3-f279e3b9b8fb",
+          "width": 119,
+          "x": 784,
+          "y": 189,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "bcac0d8b-d742-4c75-a1e7-e79d0df73f23",
+          "width": 114,
+          "x": 639,
+          "y": 189,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "f55b9832-8a85-4049-8890-f05384e500a6",
+          "width": 194,
+          "x": 709,
+          "y": 398,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "3b405cbf-d83a-46d9-b1fe-c85dd347a80b",
+          "width": 123,
+          "x": 709,
+          "y": 361,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "9fd2605c-739d-453a-bfd3-3f37973c8bdc",
+          "width": 158,
+          "x": 594,
+          "y": 392,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "db1bedb5-3b66-4248-ba09-1d80623c1467",
+          "width": 42,
+          "x": 689,
+          "y": 380,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "03896df1-c2ed-46c8-9aeb-67c4ceb30ec2",
+          "width": 125,
+          "x": 688,
+          "y": 128,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "6a26ab00-cb6d-433d-bff6-ce95f2ec5762",
+          "width": 125,
+          "x": 724,
+          "y": 129,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "ad381bc6-fc06-4e9b-a845-b72559d9e9c8",
+          "width": 125,
+          "x": 838,
+          "y": 129,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 194,
+          "layer": "",
+          "name": "Road1",
+          "persistentUuid": "286f1cbb-dab3-4bc4-8a84-fb8afbf720f4",
+          "width": 32,
+          "x": 752,
+          "y": 202,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "b7df6236-0bbd-48ee-94da-32dc02cfd953",
+          "width": 58,
+          "x": 645,
+          "y": 252,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "260294bc-10df-4387-baea-1b146a481477",
+          "width": 193,
+          "x": 671,
+          "y": 278,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 51,
+          "layer": "",
+          "name": "Road1",
+          "persistentUuid": "cbf79ee7-b88d-49b0-bb96-80b791971bc3",
+          "width": 32,
+          "x": 832,
+          "y": 315,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "9203d2ae-d72a-4fdb-a0ae-a894cc0f1eb3",
+          "width": 48,
+          "x": 806,
+          "y": 337,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "50371549-c3e7-4458-a4c0-37779b0a7f02",
+          "width": 161,
+          "x": 671,
+          "y": 315,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "a3a91757-5bde-452a-97e4-f6ea1871342f",
+          "width": 39,
+          "x": 864,
+          "y": 362,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "aaf7da41-a432-4dfd-bec3-96bc2896c75f",
+          "width": 87,
+          "x": 824,
+          "y": 320,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "099100e0-03f5-4015-939c-00638d69a34f",
+          "width": 140,
+          "x": 830,
+          "y": 293,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "e6baa1ee-f91f-41c6-9a0c-b686cf13f649",
+          "width": 231,
+          "x": 671,
+          "y": 225,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "d8dc5df0-0046-4848-aca9-086dc04a7883",
+          "width": 105,
+          "x": 849,
+          "y": 447,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 5,
+          "layer": "",
+          "name": "RoadEdge1",
+          "persistentUuid": "d3ae20fe-83cb-4068-bf66-e48ecfe229b0",
+          "width": 39,
+          "x": 899,
+          "y": 500,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 21,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "fbb83a56-2889-4d0a-8043-642c7c75bbb6",
+          "width": 464,
+          "x": 713,
+          "y": 258,
+          "zOrder": 2000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 118,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "ef30b3a4-42d7-4f22-9b9b-5b08af9da624",
+          "width": 123,
+          "x": 782,
+          "y": 73,
+          "zOrder": 2000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 37,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "476be278-cdd9-438e-88ac-ecc3ec09f8ad",
+          "width": 141,
+          "x": 812,
+          "y": 278,
+          "zOrder": 2000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 57,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "660fcb1c-f11b-416d-a27f-b385a489314b",
+          "width": 192,
+          "x": 672,
+          "y": 226,
+          "zOrder": 2000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "b23c0d76-4c4d-4559-9a3b-3fc94feca91a",
+          "width": 162,
+          "x": 671,
+          "y": 316,
+          "zOrder": 2000,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2342,431 +2433,10 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "NPC",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Down",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.20000000298023224,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "ACharDown1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 7.927276611328125,
-                        "y": 15.236364364624023
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 17
-                          },
-                          {
-                            "x": 15,
-                            "y": 17
-                          },
-                          {
-                            "x": 15,
-                            "y": 20
-                          },
-                          {
-                            "x": 9,
-                            "y": 20
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Dock1",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Dock1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Tree1",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Tree1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 15.854545593261719,
-                        "y": 27.40909194946289
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Tree2",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Tree2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 16.000001907348633,
-                        "y": 30.618200302124023
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Bush1",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Bush1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 8.318181991577148,
-                        "y": 11.963641166687012
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "House1",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "House1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 34.76862716674805,
-                        "y": 45.99976348876953
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "House2",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "House2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 35.75733947753906,
-                        "y": 44.714439392089844
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "CornerWater",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "WaterCorner.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "WaterCorner2",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "WaterCorner2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "",
           "height": 32,
           "name": "Grass",
           "texture": "Grass1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 16,
-          "name": "WaterEdgeRight",
-          "texture": "WaterEdgeRight.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "NewTiledSprite",
-          "texture": "WaterEdgeUp.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 16,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "Water1",
-          "texture": "Water1.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -3224,43 +2894,7 @@
             "objectName": "Player"
           },
           {
-            "objectName": "NPC"
-          },
-          {
-            "objectName": "Dock1"
-          },
-          {
-            "objectName": "Tree1"
-          },
-          {
-            "objectName": "Tree2"
-          },
-          {
-            "objectName": "Bush1"
-          },
-          {
-            "objectName": "House1"
-          },
-          {
-            "objectName": "House2"
-          },
-          {
-            "objectName": "CornerWater"
-          },
-          {
-            "objectName": "WaterCorner2"
-          },
-          {
             "objectName": "Grass"
-          },
-          {
-            "objectName": "WaterEdgeRight"
-          },
-          {
-            "objectName": "NewTiledSprite"
-          },
-          {
-            "objectName": "Water1"
           },
           {
             "objectName": "Road1"
@@ -3736,17 +3370,6 @@
                         ""
                       ]
                     }
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "Player",
-                    "NPC",
-                    "20",
-                    ""
                   ]
                 },
                 {
