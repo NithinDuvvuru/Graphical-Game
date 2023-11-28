@@ -621,7 +621,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 0.9673796392515431,
+        "zoomFactor": 0.6943306974990563,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1898,6 +1898,102 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 103,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "70686b71-6456-4cbf-8553-7ec7fe730049",
+          "width": 231,
+          "x": 672,
+          "y": 397,
+          "zOrder": 2000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 34,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "356d8b18-7497-4f52-9838-1e48ae4b9013",
+          "width": 39,
+          "x": 672,
+          "y": 363,
+          "zOrder": 2000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 9,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "5679b845-df6a-4d3d-b237-d84415be4246",
+          "width": 36,
+          "x": 901,
+          "y": 500,
+          "zOrder": 2000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 36,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "1d8dacec-e8e3-4bbc-949b-bf1f63746c23",
+          "width": 526,
+          "x": 147,
+          "y": 471,
+          "zOrder": 2000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 47,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "b53f8551-28af-4de1-bb49-99d504a04a70",
+          "width": 354,
+          "x": 143,
+          "y": 392,
+          "zOrder": 2000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 74,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "ae132ed1-2356-4ffe-a85a-e428e13ca5ad",
+          "width": 19,
+          "x": 128,
+          "y": 438,
+          "zOrder": 2000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3009,7 +3105,7 @@
             }
           ],
           "content": {
-            "radius": 40,
+            "radius": 50,
             "color": "255;255;255",
             "debugMode": false,
             "texture": ""
@@ -3868,9 +3964,9 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 0,
-          "ambientLightColorG": 0,
-          "ambientLightColorR": 0,
+          "ambientLightColorB": 29,
+          "ambientLightColorG": 29,
+          "ambientLightColorR": 29,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
