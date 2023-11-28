@@ -621,7 +621,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 1.7573245611364094,
+        "zoomFactor": 4.752736167642796,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3233,7 +3233,12 @@
           "type": "Lighting::LightObject",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "LightObstacleBehavior",
+              "type": "Lighting::LightObstacleBehavior"
+            }
+          ],
           "content": {
             "radius": 50,
             "color": "255;255;255",
@@ -3703,6 +3708,18 @@
                         "Player",
                         "Animation"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Glow",
+                        "=",
+                        "Player.PointX(\"XPoint\")",
+                        "=",
+                        "Player.PointY(\"YPoint\")"
+                      ]
                     }
                   ]
                 }
@@ -4165,6 +4182,10 @@
         {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
         },
         {
           "name": "MultitouchButton",
