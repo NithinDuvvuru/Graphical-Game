@@ -621,7 +621,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 4.752736167642796,
+        "zoomFactor": 1.0685777208212022,
         "windowMask": false
       },
       "objectsGroups": [
@@ -671,7 +671,7 @@
           "name": "Grass",
           "persistentUuid": "15a3b7f4-f78f-4898-9037-58d9fc07eab8",
           "width": 959,
-          "x": 0,
+          "x": 1,
           "y": 1,
           "zOrder": -200,
           "numberProperties": [],
@@ -768,36 +768,6 @@
           "x": 457,
           "y": 104,
           "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 144,
-          "layer": "",
-          "name": "Water1",
-          "persistentUuid": "22e45ac6-7fa4-4192-b80b-2627af6c404c",
-          "width": 176,
-          "x": 587,
-          "y": 292,
-          "zOrder": -10000,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 264,
-          "layer": "",
-          "name": "Grass",
-          "persistentUuid": "753fd074-6b60-4410-b871-257718ecbb5a",
-          "width": 224,
-          "x": 571,
-          "y": 20,
-          "zOrder": -5200,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4146,9 +4116,9 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 128,
-          "ambientLightColorG": 128,
-          "ambientLightColorR": 128,
+          "ambientLightColorB": 29,
+          "ambientLightColorG": 29,
+          "ambientLightColorR": 29,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
