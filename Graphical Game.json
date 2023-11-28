@@ -3009,7 +3009,7 @@
             }
           ],
           "content": {
-            "radius": 50,
+            "radius": 40,
             "color": "255;255;255",
             "debugMode": false,
             "texture": ""
@@ -3868,9 +3868,9 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 29,
-          "ambientLightColorG": 29,
-          "ambientLightColorR": 29,
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
