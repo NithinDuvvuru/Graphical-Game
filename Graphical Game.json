@@ -622,7 +622,11 @@
         "gridAlpha": 0.2,
         "snap": false,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "zoomFactor": 0.9358233664384351,
+=======
+        "zoomFactor": 1.0685777208212022,
+>>>>>>> parent of 55f74f3 (maze)
 =======
         "zoomFactor": 1.0685777208212022,
 >>>>>>> parent of 55f74f3 (maze)
@@ -1714,6 +1718,9 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+<<<<<<< HEAD
+>>>>>>> parent of 55f74f3 (maze)
+=======
 >>>>>>> parent of 55f74f3 (maze)
         }
       ],
