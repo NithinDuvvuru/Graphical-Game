@@ -621,7 +621,11 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
+<<<<<<< HEAD
         "zoomFactor": 0.9358233664384351,
+=======
+        "zoomFactor": 1.0685777208212022,
+>>>>>>> parent of 55f74f3 (maze)
         "windowMask": false
       },
       "objectsGroups": [
@@ -1693,6 +1697,24 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+<<<<<<< HEAD
+=======
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Lighting",
+          "name": "Glow",
+          "persistentUuid": "665f98d7-91d8-47e8-9aa6-de5264ffe375",
+          "width": 0,
+          "x": 538,
+          "y": 270,
+          "zOrder": 2003,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+>>>>>>> parent of 55f74f3 (maze)
         }
       ],
       "objects": [
