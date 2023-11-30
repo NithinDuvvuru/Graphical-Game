@@ -2294,21 +2294,6 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "Puzzle_1",
-          "persistentUuid": "ac5bde30-e0ab-4232-a95e-40a65cf464da",
-          "width": 0,
-          "x": 184,
-          "y": 335,
-          "zOrder": 2004,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
           "name": "Puzzle_2",
           "persistentUuid": "3adeca4a-a1b7-47bf-a235-a3a1e49c3d90",
           "width": 0,
@@ -2375,6 +2360,36 @@
           "x": 894,
           "y": 31,
           "zOrder": 2009,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Puzzle_1",
+          "persistentUuid": "f9c1aa90-3677-40e7-83f3-1594d53c6b9a",
+          "width": 0,
+          "x": 191,
+          "y": 338,
+          "zOrder": 2010,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "E",
+          "persistentUuid": "7b41f145-4894-4640-a6dc-1364203d4667",
+          "width": 0,
+          "x": 196,
+          "y": 329,
+          "zOrder": 2011,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3131,7 +3146,7 @@
             }
           ],
           "content": {
-            "text": "Do you want to battle?\nI have the best\ncreatures in town!",
+            "text": "oo a puzzle piece!",
             "opacity": 255,
             "scale": 1.5,
             "fontSize": 20,
@@ -4320,6 +4335,55 @@
           "parameters": []
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Layer"
+              },
+              "parameters": [
+                "Puzzle_1",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Player",
+                    "TopDownMovement",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "E",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -4469,20 +4533,11 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "Montre"
+                        "value": "HideLayer"
                       },
                       "parameters": [
-                        "YesButton",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "NoButton",
-                        ""
+                        "",
+                        "\"Dialogue\""
                       ]
                     }
                   ]
