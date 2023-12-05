@@ -1088,7 +1088,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 0.6943306974990591,
+        "zoomFactor": 1.033720330080253,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2870,21 +2870,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Dialogue",
-          "name": "Dialogue",
-          "persistentUuid": "44e4dee6-cb57-4240-8665-a371e4e71e42",
-          "width": 0,
-          "x": 1098,
-          "y": 276,
-          "zOrder": 2017,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 24,
@@ -2951,14 +2936,30 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 84,
-          "layer": "Dialogue",
-          "name": "Dialogue3",
-          "persistentUuid": "346105b6-2515-42af-b828-1067e92a19fc",
-          "width": 443,
-          "x": 268,
-          "y": 366,
+          "height": 161,
+          "layer": "Dialogue 2",
+          "name": "TextBorder",
+          "persistentUuid": "078c7191-7657-4620-b528-1ecda2387360",
+          "width": 450,
+          "x": 262,
+          "y": 348,
           "zOrder": 2022,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 134,
+          "layer": "Dialogue 2",
+          "name": "Dialogue3",
+          "persistentUuid": "6a44615e-bc42-4721-987a-4b4cddc941ce",
+          "width": 426,
+          "x": 267,
+          "y": 359,
+          "zOrder": 2023,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4206,6 +4207,7 @@
       },
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4273,6 +4275,14 @@
               "parameters": [
                 "",
                 "\"Collision\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Dialogue"
               ]
             }
           ],
@@ -4347,6 +4357,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "PlayerMovement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4590,6 +4601,7 @@
           "parameters": []
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4954,16 +4966,6 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -5485,37 +5487,56 @@
           ]
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Not Enough Puzzle Pieces",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
+                "value": "BuiltinCommonInstructions::And"
               },
-              "parameters": [
-                "",
-                "e"
-              ]
-            },
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Player",
-                "OpenDoorTop",
-                "25",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "Inventory_Tracker",
-                "Variable",
-                "<",
-                "6"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "OpenDoorTop",
+                    "25",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Inventory_Tracker",
+                    "Variable",
+                    "<",
+                    "6"
+                  ]
+                }
               ]
             },
             {
@@ -5531,8 +5552,8 @@
                 "value": "ShowLayer"
               },
               "parameters": [
-                "Welcome",
-                "\"Dialogue\""
+                "",
+                "\"Dialogue 2\""
               ]
             },
             {
@@ -5549,7 +5570,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "5"
+                "4"
               ]
             },
             {
@@ -5566,7 +5587,7 @@
               },
               "parameters": [
                 "",
-                "\"Dialogue\""
+                "\"Dialogue 2\""
               ]
             }
           ]
@@ -5612,7 +5633,7 @@
           "isLocked": false,
           "name": "Dialogue",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -5711,6 +5732,22 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Dialogue 2",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
