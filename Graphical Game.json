@@ -620,6 +620,87 @@
         "name": "Open door top",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New Piskel-5.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "New Piskel-5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New Piskel-6.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "New Piskel-6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New Piskel-6.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "New Piskel-6.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New Piskel-5.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "New Piskel-5.png2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New Piskel-4.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "New Piskel-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New Piskel-3.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/New Piskel-3.png.png\"}",
+        "name": "New Piskel-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New Piskel-2.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "New Piskel-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New Piskel-1.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "New Piskel-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New Piskel-3.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "New Piskel-3.png2",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -683,19 +764,26 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "checkCollisionMask": true,
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable"
+        }
+      ],
       "animations": [
         {
-          "name": "",
+          "name": "New Piskel-1.png",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "New Piskel-1.png.png",
+                  "image": "New Piskel-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -715,11 +803,11 @@
                         "y": 2
                       },
                       {
-                        "x": 16,
+                        "x": 15,
                         "y": 2
                       },
                       {
-                        "x": 16,
+                        "x": 15,
                         "y": 12
                       },
                       {
@@ -743,19 +831,26 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "checkCollisionMask": true,
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable"
+        }
+      ],
       "animations": [
         {
-          "name": "",
+          "name": "New Piskel-2.png",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "New Piskel-2.png.png",
+                  "image": "New Piskel-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -771,19 +866,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 14,
+                        "x": 2,
                         "y": 2
                       },
                       {
-                        "x": 30,
+                        "x": 18,
                         "y": 2
                       },
                       {
-                        "x": 30,
+                        "x": 18,
                         "y": 11
                       },
                       {
-                        "x": 14,
+                        "x": 2,
                         "y": 11
                       }
                     ]
@@ -803,19 +898,26 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "checkCollisionMask": true,
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable"
+        }
+      ],
       "animations": [
         {
-          "name": "",
+          "name": "New Piskel-3.png",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "New Piskel-3.png.png",
+                  "image": "New Piskel-3.png2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -831,20 +933,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 16,
-                        "y": 10
+                        "x": 5,
+                        "y": 3
                       },
                       {
-                        "x": 30,
-                        "y": 10
+                        "x": 18,
+                        "y": 3
                       },
                       {
-                        "x": 30,
-                        "y": 21
+                        "x": 18,
+                        "y": 14
                       },
                       {
-                        "x": 16,
-                        "y": 21
+                        "x": 5,
+                        "y": 14
                       }
                     ]
                   ]
@@ -863,19 +965,26 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "checkCollisionMask": true,
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable"
+        }
+      ],
       "animations": [
         {
-          "name": "",
+          "name": "New Piskel-4.png",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "New Piskel-4.png.png",
+                  "image": "New Piskel-4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -892,19 +1001,19 @@
                     [
                       {
                         "x": 2,
-                        "y": 11
+                        "y": 5
                       },
                       {
                         "x": 17,
-                        "y": 11
+                        "y": 5
                       },
                       {
                         "x": 17,
-                        "y": 23
+                        "y": 17
                       },
                       {
                         "x": 2,
-                        "y": 23
+                        "y": 17
                       }
                     ]
                   ]
@@ -923,19 +1032,26 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "checkCollisionMask": true,
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable"
+        }
+      ],
       "animations": [
         {
-          "name": "",
+          "name": "New Piskel-5.png",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "New Piskel-5.png.png",
+                  "image": "New Piskel-5.png2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -952,19 +1068,19 @@
                     [
                       {
                         "x": 2,
-                        "y": 21
+                        "y": 9
                       },
                       {
                         "x": 18,
-                        "y": 21
+                        "y": 9
                       },
                       {
                         "x": 18,
-                        "y": 30
+                        "y": 18
                       },
                       {
                         "x": 2,
-                        "y": 30
+                        "y": 18
                       }
                     ]
                   ]
@@ -983,19 +1099,26 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "checkCollisionMask": true,
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable"
+        }
+      ],
       "animations": [
         {
-          "name": "",
+          "name": "New Piskel-6.png",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "New Piskel-6.png.png",
+                  "image": "New Piskel-6.png2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1011,20 +1134,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 16,
-                        "y": 18
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 30,
-                        "y": 18
+                        "x": 13,
+                        "y": 0
                       },
                       {
-                        "x": 30,
-                        "y": 30
+                        "x": 13,
+                        "y": 11
                       },
                       {
-                        "x": 16,
-                        "y": 30
+                        "x": 0,
+                        "y": 11
                       }
                     ]
                   ]
@@ -1088,7 +1211,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 1.033720330080253,
+        "zoomFactor": 0.8471975907682815,
         "windowMask": false
       },
       "objectsGroups": [
@@ -4276,14 +4399,6 @@
                 "",
                 "\"Collision\""
               ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Dialogue"
-              ]
             }
           ],
           "events": [
@@ -4357,7 +4472,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "PlayerMovement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5570,7 +5684,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "4"
+                "8"
               ]
             },
             {
@@ -5588,6 +5702,71 @@
               "parameters": [
                 "",
                 "\"Dialogue 2\""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Running",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "LShift"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement",
+                "=",
+                "100"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "LShift"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement",
+                "=",
+                "50"
               ]
             }
           ]
@@ -5832,7 +6011,31 @@
         "zoomFactor": 0.7291666666666666,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "Puzzles",
+          "objects": [
+            {
+              "name": "Puzzle_1"
+            },
+            {
+              "name": "Puzzle_2"
+            },
+            {
+              "name": "Puzzle_3"
+            },
+            {
+              "name": "Puzzle_5"
+            },
+            {
+              "name": "Puzzle_6"
+            },
+            {
+              "name": "Puzzle_4"
+            }
+          ]
+        }
+      ],
       "variables": [],
       "instances": [
         {
@@ -5860,8 +6063,8 @@
           "name": "Puzzle_1",
           "persistentUuid": "a2d554ea-ea7d-4132-9dfd-fa45e1ef4232",
           "width": 267,
-          "x": -18,
-          "y": -16,
+          "x": 673,
+          "y": 57,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -5871,13 +6074,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 237,
+          "height": 320,
           "layer": "",
           "name": "Puzzle_2",
           "persistentUuid": "d975eca5-e9ad-4b9d-89f9-21be857a1dd7",
-          "width": 235,
-          "x": -3,
-          "y": -15,
+          "width": 306,
+          "x": 597,
+          "y": 324,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -5887,13 +6090,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 213,
+          "height": 293,
           "layer": "",
           "name": "Puzzle_3",
           "persistentUuid": "56b9c4c7-4c50-42bf-9a14-47ab600e346e",
-          "width": 219,
-          "x": 10,
-          "y": -7,
+          "width": 341,
+          "x": 254,
+          "y": 302,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -5903,13 +6106,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 218,
+          "height": 277,
           "layer": "",
           "name": "Puzzle_4",
           "persistentUuid": "493fb244-61d9-4628-a489-cae82602546f",
-          "width": 267,
-          "x": -16,
-          "y": -10,
+          "width": 343,
+          "x": -24,
+          "y": 11,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -5919,13 +6122,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 207,
+          "height": 329,
           "layer": "",
           "name": "Puzzle_5",
           "persistentUuid": "559dd9eb-acc0-47d7-b38e-b22558643477",
-          "width": 273,
-          "x": -17,
-          "y": -3,
+          "width": 348,
+          "x": -18,
+          "y": 223,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -5935,13 +6138,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 201,
+          "height": 257,
           "layer": "",
           "name": "Puzzle_6",
           "persistentUuid": "e09af73d-ab8f-4e29-bc65-0e720bac0131",
-          "width": 219,
-          "x": 12,
-          "y": 1,
+          "width": 257,
+          "x": 354,
+          "y": 48,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -5949,15 +6152,14 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 336,
-          "layer": "",
+          "customSize": false,
+          "height": 0,
+          "layer": "end layer",
           "name": "NewText",
-          "persistentUuid": "600f940e-01f9-4a53-9498-1818029bfbb1",
-          "width": 1245,
-          "x": 22,
-          "y": 229,
+          "persistentUuid": "5f0725c8-10bc-40fd-97e9-cb0bb1ccceea",
+          "width": 0,
+          "x": 35,
+          "y": 257,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -6009,7 +6211,254 @@
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Puzzle_1",
+                    "Puzzle_2",
+                    "5",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Puzzle_1",
+                    "Puzzle_4",
+                    "5",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Puzzle_2",
+                    "Puzzle_3",
+                    "5",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Puzzle_3",
+                    "Puzzle_4",
+                    "5",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Puzzle_4",
+                    "Puzzle_5",
+                    "5",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Puzzle_6",
+                    "Puzzle_3",
+                    "5",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Puzzle_5",
+                    "Puzzle_6",
+                    "5",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Puzzle_1",
+                    "Puzzle_5",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Puzzle_1",
+                    "Puzzle_6",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Puzzle_1",
+                    "Puzzle_3",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Puzzle_2",
+                    "Puzzle_4",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Puzzle_2",
+                    "Puzzle_5",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Puzzle_2",
+                    "Puzzle_6",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Puzzle_4",
+                    "Puzzle_2",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Puzzle_4",
+                    "Puzzle_6",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Puzzle_3",
+                    "Puzzle_1",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Puzzle_3",
+                    "Puzzle_5",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"end layer\""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -6036,6 +6485,38 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "end layer",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
