@@ -3086,6 +3086,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 27,
+          "layer": "",
+          "name": "Secret",
+          "persistentUuid": "8d465863-f83a-4996-b16d-84887a814e48",
+          "width": 200,
+          "x": 97,
+          "y": 42,
+          "zOrder": 2024,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -4267,6 +4283,27 @@
             "align": "left",
             "wordWrap": true
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Secret",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Hold shift to go faster!",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 10,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -4325,6 +4362,9 @@
           },
           {
             "objectName": "Welcome"
+          },
+          {
+            "objectName": "Secret"
           }
         ]
       },
@@ -6189,7 +6229,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "YAY YOU SOLVED THE PUZZLE!",
+          "string": "CONGRATULATIONS YOU WIN!",
           "font": "",
           "textAlignment": "left",
           "characterSize": 60,
@@ -6337,32 +6377,6 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Puzzle_1",
-                    "Puzzle_3",
-                    "",
-                    "",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Puzzle_2",
-                    "Puzzle_4",
-                    "",
-                    "",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
                     "Puzzle_2",
                     "Puzzle_5",
                     "",
@@ -6378,58 +6392,6 @@
                   "parameters": [
                     "Puzzle_2",
                     "Puzzle_6",
-                    "",
-                    "",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Puzzle_4",
-                    "Puzzle_2",
-                    "",
-                    "",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Puzzle_4",
-                    "Puzzle_6",
-                    "",
-                    "",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Puzzle_3",
-                    "Puzzle_1",
-                    "",
-                    "",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Puzzle_3",
-                    "Puzzle_5",
                     "",
                     "",
                     "no"
